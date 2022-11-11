@@ -6,7 +6,6 @@ using UnityEngine;
 public class ProjectileSystem : MonoBehaviour
 {
     public Transform firePointSides;
-    public Transform firePointUp;
     public GameObject bulletPrefab;
 
 
@@ -22,10 +21,6 @@ public class ProjectileSystem : MonoBehaviour
         {
             ShootSide();
         }
-        if (Input.GetButtonDown("Fire-Up"))
-        {
-            ShootUp();
-        }
     }
 
     void ShootSide()
@@ -33,9 +28,12 @@ public class ProjectileSystem : MonoBehaviour
         GameObject o = Instantiate(bulletPrefab, firePointSides.position, firePointSides.rotation);
         o.GetComponent<Bullet>().Direction = GetComponent<Player_Movement>().m_FacingRight ? Vector2.right : Vector2.left;
     }
+
+    /*
     void ShootUp()
     {
         GameObject o = Instantiate(bulletPrefab, firePointUp.position, firePointUp.rotation);
         o.GetComponent<Bullet>().Direction = Vector2.up;
     }
+    */
 }

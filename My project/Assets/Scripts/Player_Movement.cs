@@ -13,15 +13,17 @@ public class Player_Movement : MonoBehaviour
     private float m_dirX = 0f;
     const float k_GroundedRadius = 0.51f;
     public bool m_FacingRight = true;
-                               //   0                  1                2          3        4        5       6       7     8     9 
-    private enum MovementState {abilitySpike, abilityPoweredBall, abilityShield, attack, attackUP, death, ghostRun, hurt, idle, run}
+                               //   0                  1                2          3       4       5       6     7     8 
+    private enum MovementState {abilitySpike, abilityPoweredBall, abilityShield, attack, death, ghostRun, hurt, idle, run}
     private bool isGhost;
     private bool m_Grounded;
     private bool m_moving;
     private bool m_alive;
 
-    public int maxHP = 100;
-    public int currentHP;
+    public float maxHP = 100;
+    public float maxMana = 100;
+    public float currentMana;
+    public float currentHP;
     public int armor = 0;
     [Range(10, 15)] public float m_jumpForce = 14f;
     [Range(5, 15)] public float m_movementSpeed = 7f;
@@ -137,39 +139,40 @@ public class Player_Movement : MonoBehaviour
         Debug.Log("SHOTTED");
     }
 
-    private void fireUP()
+
+    private void ability1()
     {
 
     }
 
-    private void abilityCTRL()
+    private void ability2()
     {
 
     }
 
-    private void abilitySHIFT()
-    {
-
-    }
-
-    private void getHit(int dmg)
+    private void getHit(float dmg)
     {
         MovementState state;
         currentHP -= dmg;
         death();
-        if (m_alive)
+        if (currentHP > 0)
         {
             state = MovementState.hurt;
         }
+        else
+        {
+            death();
+        }
+
     }
 
-    private void heal(int heal)
+    private void heal(float heal)
     {
         if (currentHP >= maxHP && currentHP <= 0)
         {
             //Cant heal
         }
-        else if((currentHP + heal) > maxHP)
+        else if((currentHP + heal) >= maxHP)
         {
             currentHP = maxHP;
         }
@@ -182,15 +185,8 @@ public class Player_Movement : MonoBehaviour
     private void death()
     {
         MovementState state;
-        if (currentHP <= 0)
-        {
-            m_alive = false;
-            state = MovementState.death;
-        }
-        else
-        {
-            m_alive = true;
-        }
+        m_alive = false;
+        state = MovementState.death;
     }
 
     private void Flip()

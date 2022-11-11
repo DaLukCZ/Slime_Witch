@@ -1,0 +1,847 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'cs' Physical Memory: 15734 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lukas/OneDrive/Desktop/Unity/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63744
+Successfully changed project path to: C:/Users/lukas/OneDrive/Desktop/Unity/My project
+C:/Users/lukas/OneDrive/Desktop/Unity/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lukas/OneDrive/Desktop/Unity/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   
+    VRAM:     7867 MB
+    Driver:   27.20.11028.10001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001811 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (602ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (471ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (197ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (975ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2348 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2782.
+Total: 4.042100 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.158300 ms MarkObjects: 3.443900 ms  DeleteObjects: 0.076100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain2.png
+  artifactKey: Guid(1ec0c6942738f6146b433b789c31f193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain2.png using Guid(1ec0c6942738f6146b433b789c31f193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9848f6fea60637db1c0c87beae54e1a8') in 0.185102 seconds 
+  Import took 0.190734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain23.png
+  artifactKey: Guid(a2d6c6e99bf85654b80a0887616aa87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain23.png using Guid(a2d6c6e99bf85654b80a0887616aa87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7816a246fc73eae089b07561a425d0') in 0.021916 seconds 
+  Import took 0.026385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation17.png
+  artifactKey: Guid(de9f2cd8f2a3c334a936821e42d32790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation17.png using Guid(de9f2cd8f2a3c334a936821e42d32790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5502e7ecceb020e0592f45351698b6b9') in 0.021317 seconds 
+  Import took 0.025965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain9.png
+  artifactKey: Guid(bebc102e43f508848a27a7ce8bdc5ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain9.png using Guid(bebc102e43f508848a27a7ce8bdc5ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d6946cb3f672605f69ddddc661a2dd') in 0.023069 seconds 
+  Import took 0.027742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation6.png
+  artifactKey: Guid(87d89ad765587a3468051b086496a70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation6.png using Guid(87d89ad765587a3468051b086496a70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b941a59933fc8ac310773046002587') in 0.019975 seconds 
+  Import took 0.025043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain32.png
+  artifactKey: Guid(3b265817f7cb6c14e8be68309ebb5819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain32.png using Guid(3b265817f7cb6c14e8be68309ebb5819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c45fb2f7aea07467f65be42551790d') in 0.022730 seconds 
+  Import took 0.027960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain4.png
+  artifactKey: Guid(21b1d8e23603bba47b15124f08c1b7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain4.png using Guid(21b1d8e23603bba47b15124f08c1b7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e048c638a45dff77126b580b6dad84de') in 0.020834 seconds 
+  Import took 0.025390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain31.png
+  artifactKey: Guid(fbf83171c480bf149ae384d4285149aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain31.png using Guid(fbf83171c480bf149ae384d4285149aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8b78092f8d39731de2b5a16bdbe6eb') in 0.022075 seconds 
+  Import took 0.026713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain11.png
+  artifactKey: Guid(a6a78440c623479438dbc15beae10f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain11.png using Guid(a6a78440c623479438dbc15beae10f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61163e80ec71c06ef3d27c03982df4f0') in 0.022845 seconds 
+  Import took 0.027544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain19.png
+  artifactKey: Guid(00735c2f8fd3fb74787c7886a9fa2711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain19.png using Guid(00735c2f8fd3fb74787c7886a9fa2711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50c67865678fde83024610e76f7075c') in 0.023376 seconds 
+  Import took 0.027900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platforms9.png
+  artifactKey: Guid(babda87faecfe3a4c8bd1adebf65f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platforms9.png using Guid(babda87faecfe3a4c8bd1adebf65f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc15dd9d292b5d2121941232924b30b3') in 0.023712 seconds 
+  Import took 0.028262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain22.png
+  artifactKey: Guid(53b078147c2fb1f43868c0f91b47c3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain22.png using Guid(53b078147c2fb1f43868c0f91b47c3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e36054529cf8a77d9a0e5caec6547e') in 0.021648 seconds 
+  Import took 0.026314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain27.png
+  artifactKey: Guid(624bcc3eceb1a1c4190939b351ecc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain27.png using Guid(624bcc3eceb1a1c4190939b351ecc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b07449b4f39ac662c871a3d4032046a') in 0.023320 seconds 
+  Import took 0.028253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/water2.png
+  artifactKey: Guid(d9b4b391efb833f45bc893107490e33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/water2.png using Guid(d9b4b391efb833f45bc893107490e33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ec429c0273bd5b032d715a70d27292') in 0.026212 seconds 
+  Import took 0.030564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain29.png
+  artifactKey: Guid(63bda02cb2dc55e48a1f34d1458546b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain29.png using Guid(63bda02cb2dc55e48a1f34d1458546b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb3257a8456cfea1a0dbbbf3c6d96fc') in 0.019720 seconds 
+  Import took 0.024204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation11.png
+  artifactKey: Guid(9a854b12bb83d12499f81508208dff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation11.png using Guid(9a854b12bb83d12499f81508208dff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cec1ee945929d17ae387ee16ed1bed') in 0.021601 seconds 
+  Import took 0.026403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platforms12.png
+  artifactKey: Guid(44c42b3834b0ba04ab1a5a5b78b36bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platforms12.png using Guid(44c42b3834b0ba04ab1a5a5b78b36bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795081b75abc2af26b50939c44c31112') in 0.019946 seconds 
+  Import took 0.024501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain6.png
+  artifactKey: Guid(e82e43fec6a770c4e91553ea5fc1b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain6.png using Guid(e82e43fec6a770c4e91553ea5fc1b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520152ee31e996e3b90ac2b3ef93c518') in 0.019251 seconds 
+  Import took 0.023874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain26.png
+  artifactKey: Guid(2348fcbfef3075347a79520272ad94a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain26.png using Guid(2348fcbfef3075347a79520272ad94a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb1519f2793c1135c4499a97f26bcdb') in 0.022527 seconds 
+  Import took 0.027784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation1.png
+  artifactKey: Guid(a6a9d042a48799d4e9a839df1d5854bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation1.png using Guid(a6a9d042a48799d4e9a839df1d5854bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0ada31e079bd4218aa7070602478bb') in 0.021757 seconds 
+  Import took 0.025935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation14.png
+  artifactKey: Guid(b41521504b3f404408ac6c7bd65f5f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation14.png using Guid(b41521504b3f404408ac6c7bd65f5f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0669a40f2b8e350eb035f5c4a7dfc390') in 0.019519 seconds 
+  Import took 0.024136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation2.png
+  artifactKey: Guid(f19681816702ab841acd1b97ebf7ba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation2.png using Guid(f19681816702ab841acd1b97ebf7ba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1674187aa76c5e4eb16723ae0175b82e') in 0.020015 seconds 
+  Import took 0.024814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platforms7.png
+  artifactKey: Guid(014de3ac1734a794ea073ed0c071f90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platforms7.png using Guid(014de3ac1734a794ea073ed0c071f90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c1f030775b028a966c8f29e23c7f66') in 0.020914 seconds 
+  Import took 0.024744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation3.png
+  artifactKey: Guid(f35b4612e1d77d44393511bb5da679b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation3.png using Guid(f35b4612e1d77d44393511bb5da679b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3243e4eda977424e356091bc95606d45') in 0.020040 seconds 
+  Import took 0.024243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain12.png
+  artifactKey: Guid(34b88fa3d2ced5740926e670052a752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain12.png using Guid(34b88fa3d2ced5740926e670052a752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2753e4452a1cbe160d3c9a9d96c90a4f') in 0.019575 seconds 
+  Import took 0.023915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain8.png
+  artifactKey: Guid(41c0dc3925125fb48a5016131585a89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain8.png using Guid(41c0dc3925125fb48a5016131585a89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d19b747c090331f722421ade6c1533') in 0.019707 seconds 
+  Import took 0.024079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain13.png
+  artifactKey: Guid(f238f90b44c124b4aa06be14a06e0a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain13.png using Guid(f238f90b44c124b4aa06be14a06e0a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e52c2143f9839e6b5a89a857291ea8c') in 0.021265 seconds 
+  Import took 0.026132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain20.png
+  artifactKey: Guid(decb9f72d2247084cbd8c2fe72b3db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain20.png using Guid(decb9f72d2247084cbd8c2fe72b3db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aacbe1eb4cfd5c46af8b3e5fe687a04') in 0.019686 seconds 
+  Import took 0.023846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain18.png
+  artifactKey: Guid(aabbe74a81051db4885bd178fc6bcea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain18.png using Guid(aabbe74a81051db4885bd178fc6bcea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e54d18beec22dc13331e42f3ec68a6') in 0.023499 seconds 
+  Import took 0.027575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation7.png
+  artifactKey: Guid(8d95ed1f6cf02244b9438ac1ac44bf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation7.png using Guid(8d95ed1f6cf02244b9438ac1ac44bf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2640a4e095d1f6f1577caadc6ff3ce0b') in 0.023287 seconds 
+  Import took 0.028003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platforms10.png
+  artifactKey: Guid(87b8a141586a3bd49b737c1cce5a8d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platforms10.png using Guid(87b8a141586a3bd49b737c1cce5a8d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17005675064721de0566764db27923cb') in 0.023882 seconds 
+  Import took 0.028838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation12.png
+  artifactKey: Guid(927d449f80b2019488924809c775ef2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation12.png using Guid(927d449f80b2019488924809c775ef2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c75c0f32880674308966b69832ed56f') in 0.023928 seconds 
+  Import took 0.029057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain25.png
+  artifactKey: Guid(a3e0987e8f749774096b597264a94e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain25.png using Guid(a3e0987e8f749774096b597264a94e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d464e237f0005063a0613adaf4e692') in 0.023436 seconds 
+  Import took 0.028198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation18.png
+  artifactKey: Guid(dd45ac119678b34498d4e985c9c92384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation18.png using Guid(dd45ac119678b34498d4e985c9c92384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6c2f4a178af1157b47d041468a0b72') in 0.026627 seconds 
+  Import took 0.031632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation5.png
+  artifactKey: Guid(67466812cb35e894aa4ede8d6c47adb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation5.png using Guid(67466812cb35e894aa4ede8d6c47adb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5f18553e591272d9a1a75ff2ab64ea') in 0.021330 seconds 
+  Import took 0.025996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/water1.png
+  artifactKey: Guid(100cfd2d5aaf1d94b85ec49fe30441a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/water1.png using Guid(100cfd2d5aaf1d94b85ec49fe30441a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998e04ba9c7142a72adfb2eaa838c789') in 0.021319 seconds 
+  Import took 0.025293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation16.png
+  artifactKey: Guid(70e5246da27190c43ac1a2eb8b7d1b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation16.png using Guid(70e5246da27190c43ac1a2eb8b7d1b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a936e9e7c217566ba812a1e53139fa14') in 0.022309 seconds 
+  Import took 0.026814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain5.png
+  artifactKey: Guid(a10b23eaad25f854a84d5aacb938ae24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain5.png using Guid(a10b23eaad25f854a84d5aacb938ae24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd41ffe6935c227c4a2f92561564f77') in 0.022205 seconds 
+  Import took 0.027016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain14.png
+  artifactKey: Guid(f2457d458fb47c44f932fece360c3bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain14.png using Guid(f2457d458fb47c44f932fece360c3bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ad98831a1dd55d89b0c3f7c53d5721') in 0.024052 seconds 
+  Import took 0.028539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain28.png
+  artifactKey: Guid(b8a8d04980c63b544b143090d48fae80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain28.png using Guid(b8a8d04980c63b544b143090d48fae80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ed6dfa10aab10d69f534081ce96ef7') in 0.022093 seconds 
+  Import took 0.027500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platforms11.png
+  artifactKey: Guid(d7c60d70846f3ac4d9a6d2cbbd360cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platforms11.png using Guid(d7c60d70846f3ac4d9a6d2cbbd360cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5e3ad2ed377966f7b4466bfb439054') in 0.022186 seconds 
+  Import took 0.026716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain24.png
+  artifactKey: Guid(5ec4860280ca3a84b97c3351a9a9cf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain24.png using Guid(5ec4860280ca3a84b97c3351a9a9cf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e28ad7c0893092585826f6603bd2f0') in 0.019910 seconds 
+  Import took 0.024348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain30.png
+  artifactKey: Guid(2742c9df5f77baa4cb26ca624ef3fb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain30.png using Guid(2742c9df5f77baa4cb26ca624ef3fb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2116670a899b14a8397989b8fee26c6') in 0.021201 seconds 
+  Import took 0.025844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain10.png
+  artifactKey: Guid(f313238fd096d7d45a09f32f732cbff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain10.png using Guid(f313238fd096d7d45a09f32f732cbff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86def3a6b32a4ed1559b93153bae2bbc') in 0.020638 seconds 
+  Import took 0.025787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation9.png
+  artifactKey: Guid(c8235e36772cd18489caec765d4bd857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation9.png using Guid(c8235e36772cd18489caec765d4bd857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4256c9aa7c3c2a6b61daaf02c0dd386d') in 0.024623 seconds 
+  Import took 0.028916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain3.png
+  artifactKey: Guid(d7f5d604378a7e54da54384a37a0ff97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain3.png using Guid(d7f5d604378a7e54da54384a37a0ff97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6dfe85ef209018a27aa34ae56e2755') in 0.018347 seconds 
+  Import took 0.023117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platforms8.png
+  artifactKey: Guid(5e12f6210b49ff841a0cea63dfbe773d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platforms8.png using Guid(5e12f6210b49ff841a0cea63dfbe773d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9842f58467174ea362767ef6a3a2948e') in 0.019881 seconds 
+  Import took 0.023434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain21.png
+  artifactKey: Guid(ae0ca9bae593f2745961e39d1cedaa07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain21.png using Guid(ae0ca9bae593f2745961e39d1cedaa07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1827831fe7e71def61438e925da2eb3a') in 0.020249 seconds 
+  Import took 0.024654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation10.png
+  artifactKey: Guid(d56c26c7676f49944b035ebf9a276545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation10.png using Guid(d56c26c7676f49944b035ebf9a276545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06444ea0fc3651c10b9d221fac3defd3') in 0.022628 seconds 
+  Import took 0.026447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation4.png
+  artifactKey: Guid(ebafaba42f309684b957c490812b953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation4.png using Guid(ebafaba42f309684b957c490812b953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd47b12a7edf76a151de83fa2daa373') in 0.019752 seconds 
+  Import took 0.024357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain15.png
+  artifactKey: Guid(36cfc4278d4fc5949b5fcfd790d1e054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain15.png using Guid(36cfc4278d4fc5949b5fcfd790d1e054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb24b3443b3a9c6ce02ae25fcd08450c') in 0.020106 seconds 
+  Import took 0.024281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation8.png
+  artifactKey: Guid(226fd913e857a7142b96676667957d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation8.png using Guid(226fd913e857a7142b96676667957d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116d0cde9226978a3b4c2c471c816481') in 0.020683 seconds 
+  Import took 0.024895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation13.png
+  artifactKey: Guid(fb93c5c79cd2d304291f056cc3dd3ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation13.png using Guid(fb93c5c79cd2d304291f056cc3dd3ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728bc2ea5e89d3cfb87565a9b98b4ef5') in 0.021835 seconds 
+  Import took 0.026289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain1.png
+  artifactKey: Guid(3964a9533a846db4799d7752b4b706c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain1.png using Guid(3964a9533a846db4799d7752b4b706c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b440ba99a80b2b46c4c83f0ce50307') in 0.020819 seconds 
+  Import took 0.025330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/platvariation15.png
+  artifactKey: Guid(041cc043d9994f44d84ffc262b5dea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/platvariation15.png using Guid(041cc043d9994f44d84ffc262b5dea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2675de377e8176bb275da0720e02dc47') in 0.022049 seconds 
+  Import took 0.026676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain16.png
+  artifactKey: Guid(3c984c0c3ea8a8343bfdd068213e71b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain16.png using Guid(3c984c0c3ea8a8343bfdd068213e71b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb814c15e369e395af468dc5e958ef91') in 0.023712 seconds 
+  Import took 0.029263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain17.png
+  artifactKey: Guid(f285436685cf10940962dcc74a6fba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain17.png using Guid(f285436685cf10940962dcc74a6fba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86ee414b7acf713507f184434d74d4f') in 0.022464 seconds 
+  Import took 0.027507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Textures/Platformer - desert/Tileset/tileMain7.png
+  artifactKey: Guid(343443843fe4c9145bdd2d4bcbc0f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Platformer - desert/Tileset/tileMain7.png using Guid(343443843fe4c9145bdd2d4bcbc0f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c34eca3bc8851158c0fae3b387f189d') in 0.020074 seconds 
+  Import took 0.024586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.747297 seconds.
+  path: Assets/Textures/oak_woods_v1.0/readme.TXT
+  artifactKey: Guid(26b4e79b67ba0fa41b9b2da9419b7654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/oak_woods_v1.0/readme.TXT using Guid(26b4e79b67ba0fa41b9b2da9419b7654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf76360a9ec57058149de8e704f99030') in 0.024981 seconds 
+  Import took 0.029937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.950619 seconds.
+  path: Assets/Textures/oak_woods_v1.0/oak_woods_tileset.png
+  artifactKey: Guid(1a78d996489235c40b44a44131d377d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/oak_woods_v1.0/oak_woods_tileset.png using Guid(1a78d996489235c40b44a44131d377d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f460da6c4898117a5cbeb83c8676792') in 0.459930 seconds 
+  Import took 0.465052 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004439 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1001ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (824ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2335 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.7 MB.
+System memory in use after: 105.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2793.
+Total: 3.369700 ms (FindLiveObjects: 0.280500 ms CreateObjectMapping: 0.069600 ms MarkObjects: 2.998000 ms  DeleteObjects: 0.020200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1017ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2335 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.7 MB.
+System memory in use after: 105.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2795.
+Total: 4.485500 ms (FindLiveObjects: 0.307700 ms CreateObjectMapping: 0.136600 ms MarkObjects: 4.007300 ms  DeleteObjects: 0.031000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (997ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2335 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.7 MB.
+System memory in use after: 106.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2797.
+Total: 3.553100 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.069000 ms MarkObjects: 3.182000 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1110ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (945ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2335 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.8 MB.
+System memory in use after: 106.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2799.
+Total: 3.613400 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.119100 ms MarkObjects: 3.184800 ms  DeleteObjects: 0.021000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
